@@ -10,11 +10,11 @@
 	</parent>
 	
 	<groupId>com.ibm</groupId>
-	<artifactId>fullstack-eureka-server</artifactId>
+	<artifactId>final-eureka-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
-	<name>fullstack-eureka-server</name>
+	<name>final-eureka-server</name>
 	<description>eureka server project for Spring Boot</description>
 
 	<properties>
@@ -57,7 +57,7 @@
 	</dependencyManagement>
 	
 	<build>
-		<finalName>fullstack-eureka-service</finalName>
+		<finalName>final-eureka-service</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
